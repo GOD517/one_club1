@@ -1,0 +1,13 @@
+@import "_mixins/font-face";
+
+@include font-face("helveticaneuecyr", "../fonts/helveticaneuecyr-thin/helveticaneuecyr-thin", 100)
+@include font-face("helveticaneuecyr", "../fonts/helveticaneuecyr-light/helveticaneuecyr-light", 300);
+@include font-face("helveticaneuecyr", "../fonts/helveticaneuecyr-roman/helveticaneuecyr-roman", 400);
+@include font-face("helveticaneuecyr", "../fonts/helveticaneuecyr-bold/helveticaneuecyr-bold", 700);
+
+//Thin - 100
+//Light - 300
+//Regular, roman - 400
+//Semi-bold - 600
+//Bold - 700
+//Extra-bold - 800
